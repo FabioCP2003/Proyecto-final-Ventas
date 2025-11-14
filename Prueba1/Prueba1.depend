@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1763126355 source:c:\users\alumno-d104\desktop\nueva carpeta\proyecto-final-ventas\prueba1\ventas.cpp
+	"Ventas.h"
+	<iostream>
+
+1763126349 c:\users\alumno-d104\desktop\nueva carpeta\proyecto-final-ventas\prueba1\ventas.h
+	<string>
+
+1763126349 source:c:\users\alumno-d104\desktop\nueva carpeta\proyecto-final-ventas\prueba1\main.cpp
+	<iostream>
+	"Ventas.h"
+

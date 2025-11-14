@@ -1,16 +1,24 @@
 #include <iostream>
+#include "Ventas.h"
 using namespace std;
 
 /* SUBMENÚS */
 void menuVentas();
+/*
 void menuTesoreria();
 void menuProductos();
 void menuPersonas();
 void menuRegistros();
 void menuLogistica(); // opcional
-
+*/
 int main() {
-    int op;
+
+    Ventas v("v");
+
+    v.menuVentas();
+
+
+    /*int op;
 
     do {
         system("cls");
@@ -63,31 +71,14 @@ int main() {
         }
 
     } while(op != 0);
-
+*/
     return 0;
 }
 
 
 /* ============================
-   SUBMENÚ DE VENTAS
-   ============================ */
-void menuVentas() {
-    int op;
-    do {
-        system("cls");
-        cout << "=== VENTAS ===\n";
-        cout << "1. Nueva venta\n";
-        cout << "2. Modificar venta\n";
-        cout << "0. Volver\n";
-        cout << "Opcion: ";
-        cin >> op;
-    } while(op != 0);
-}
-
-
-/* ============================
    SUBMENÚ DE TESORERÍA
-   ============================ */
+   ============================
 void menuTesoreria() {
     int op;
     do {
@@ -101,9 +92,9 @@ void menuTesoreria() {
 }
 
 
-/* ============================
+ ============================
    SUBMENÚ DE PRODUCTOS
-   ============================ */
+   ============================
 void menuProductos() {
     int op;
     do {
@@ -120,9 +111,9 @@ void menuProductos() {
 }
 
 
-/* ============================
+ ============================
    SUBMENÚ DE PERSONAS
-   ============================ */
+   ============================
 void menuPersonas() {
     int op;
     do {
@@ -138,9 +129,9 @@ void menuPersonas() {
 }
 
 
-/* ============================
+ ============================
    SUBMENÚ DE REGISTROS
-   ============================ */
+   ============================
 void menuRegistros() {
     int op;
     do {
@@ -155,9 +146,9 @@ void menuRegistros() {
 }
 
 
-/* ============================
+ ============================
    SUBMENÚ OPCIONAL LOGÍSTICA
-   ============================ */
+   ============================
 void menuLogistica() {
     int op;
     do {
@@ -169,3 +160,4 @@ void menuLogistica() {
         cin >> op;
     } while(op != 0);
 }
+*/
