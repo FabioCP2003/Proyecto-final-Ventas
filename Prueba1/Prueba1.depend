@@ -10,3 +10,39 @@
 	<iostream>
 	"Ventas.h"
 
+1763556592 source:e:\proyecto-final-ventas\prueba1\main.cpp
+	<iostream>
+	"Ventas.h"
+	"Logistica.h"
+	"Personas.h"
+
+1763556802 e:\proyecto-final-ventas\prueba1\ventas.h
+
+1763556578 source:e:\proyecto-final-ventas\prueba1\ventas.cpp
+	"Ventas.h"
+	<iostream>
+
+1763556624 source:e:\proyecto-final-ventas\prueba1\logistica.cpp
+	"Logistica.h"
+	<iostream>
+
+1763556384 e:\proyecto-final-ventas\prueba1\logistica.h
+
+1763556578 source:e:\proyecto-final-ventas\prueba1\personas.cpp
+	"Personas.h"
+	<iostream>
+
+1763556578 e:\proyecto-final-ventas\prueba1\personas.h
+
+1763556800 source:e:\proyecto-final-ventas\prueba1\productos.cpp
+	"Productos.h"
+	<iostream>
+
+1763556802 e:\proyecto-final-ventas\prueba1\productos.h
+
+1763556998 source:e:\proyecto-final-ventas\prueba1\registros.cpp
+	"Registros.h"
+	<iostream>
+
+1763556998 e:\proyecto-final-ventas\prueba1\registros.h
+
